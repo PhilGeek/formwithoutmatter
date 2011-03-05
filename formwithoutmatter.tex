@@ -1,0 +1,139 @@
+%!TEX TS-program = xelatex 
+%!TEX TS-options = -synctex=1 -output-driver="xdvipdfmx -q -E"
+%!TEX encoding = UTF-8 Unicode
+%
+%  formwithoutmatter
+%
+%  Created by Mark Eli Kalderon on 2011-03-05.
+%  Copyright (c) year. All rights reserved.
+%
+
+\documentclass[12pt]{article} 
+
+% Definitions
+\newcommand\mykeywords{Aristotle, perception, color}
+\newcommand\myauthor{Mark Eli Kalderon} 
+\newcommand\mytitle{Form Without Matter}
+
+% Packages
+\usepackage{geometry} \geometry{a4paper} 
+\usepackage{url}
+\usepackage{txfonts}
+\usepackage{color}
+\definecolor{gray}{rgb}{0.459,0.438,0.471}
+% \usepackage{setspace}
+% \doublespace % Uncomment for doublespacing if necessary
+% \usepackage{epigraph} % optional
+
+% XeTeX
+\usepackage[cm-default]{fontspec}
+\usepackage{xltxtra,xunicode}
+\defaultfontfeatures{Scale=MatchLowercase,Mapping=tex-text}
+\setmainfont{Hoefler Text}
+\setsansfont{Gill Sans}
+\setmonofont{Inconsolata}
+
+% Section Formatting
+\usepackage[]{titlesec}
+\titleformat{\section}[hang]{\fontsize{14}{14}\scshape}{\S{\thesection}}{.5em}{}{}
+\titleformat{\subsection}[hang]{\fontsize{12}{12}\scshape}{\S{\thesubsection}}{.5em}{}{}
+\titleformat{\subsubsection}[hang]{\fontsize{12}{12}\scshape}{\S{\thesubsubsection}}{.5em}{}{}
+
+% Bibliography
+\usepackage[round]{natbib} 
+
+% Title Information
+\title{\mytitle} % For thanks comment this line and uncomment the line below
+%\title{\mytitle\thanks{}}% 
+\author{\myauthor} 
+% \date{} % Leave blank for no date, comment out for most recent date
+
+% PDF Stuff
+\usepackage[plainpages=false, pdfpagelabels, bookmarksnumbered, backref, pdftitle={\mytitle}, pagebackref, pdfauthor={\myauthor}, pdfkeywords={\mykeywords}, xetex, dvipdfmx, colorlinks=true, citecolor=gray, linkcolor=gray, urlcolor=gray]{hyperref} 
+
+
+
+%%% BEGIN DOCUMENT
+\begin{document}
+
+% Title Page
+\maketitle
+% \begin{abstract} % optional
+% \noindent
+% \end{abstract} 
+\vskip 2em \hrule height 0.4pt \vskip 2em
+% \epigraph{text of epigraph}{\textsc{author of epigraph}} % optional; make sure to uncomment \usepackage{epigraph}
+
+% Layout Settings
+\setlength{\parindent}{1em}
+
+% Main Content
+
+\section{Empedocles} % (fold)
+\label{sec:empedocles}
+In the \emph{Meno} Socrates attributes to Empedocles a conception of perception as a mode of assimilation of material effluences:
+\begin{quotation}
+    \textsc{meno}: And how do you define color?
+    
+    \ldots
+    
+    \textsc{socrates}: Would you like an answer à la Gorgias, such as you most readily follow?
+    
+    \textsc{meno}: Of course I should.
+    
+    \textsc{socrates}: You and he believe in Empedocles' theory of effluences, do you not?
+    
+    \textsc{meno}: Wholeheartedly.
+    
+    \textsc{socrates}: And passages to which and through which the effluences make their way?
+    
+    \textsc{meno}: Yes.
+    
+    \textsc{socrates}: Some of the effluences fit into some of the passages whereas others are too coarse or too fine.
+    
+    \textsc{meno}: That is right.
+    
+    \textsc{socrates}: Now you recognize the term `sight'?
+    
+    \textsc{meno}: Yes.
+    
+    \textsc{socrates}: From these notions, then, `grasp what I would tell,' as Pindar says. Color is an effluence from shapes commensurate with sight and perceptible to it. \emph{Meno} 76a--d
+\end{quotation}
+
+Objects emit material effluences. Effluences are fine bodies that are kind differentiated in terms of magnitude. There are passages in which and through which material effluences may flow. Whether a material effluence may enter a passage depends on its magnitude. The magnitudes of some kinds of material effluences are too great or too small for them to flow through a given passage. Such passages exist in the membrane of the eye, thus allowing the eye to assimilate only a certain kind of material effluence, that is, the kind whose magnitude permits entry in the passages of the membrane of the eye. 
+
+Thus we arrive at the answer in the style of Gorgias---color is a kind of material effluence commensurate with sight and perceptible. Color is a kind of material effluence, a chromatic effluence let's say, with a distinctive magnitude. Chromatic effluences are commensurate with sight insofar as their magnitude admits entry in the passages of the membrane of the the eye, the organ of sight. Notice, however, the assimilation of chromatic effluences by the organ of sight is not, by itself, the sensing of colors. Otherwise the final conjunct would be redundant. The assimilation of chromatic effluence is at best a material precondition for their sensing. The thought seems to be this. In order for the chromatic effluences to be the object of sense, they must first be assimilated by the organ of sensation. It is only by assimilating chromatic effluences that they are presented to sight and are thereby seen. Socrates claims that the answer in the style of Gorgias may be generalized to the other sensory objects such as sound and smell (\emph{Meno} 76d). If that's right, then Empedocles, at least as presented by Socrates, is in the grip of a general model of sensory awareness for which ingestion provides the model. Compare---in eating an olive, the matter of the olive is taken in and presented to the organ of taste and thereby tasted. Olfaction, on one conception of it, provides a complementary model---an odor is the object of smell only if the particulate matter that constitutes that odor is in contact with the nasal membrane. 
+
+The underlying thought is that in order for something to be the object of sensation, it must be present to the sense organ. On the ingestion model it is a general feature that taste shares with touch that is operative---the object of sensation must be in contact with the sense organ for it to be sensed. If one began with that thought, a puzzle would naturally arise about vision, for vision seems to present the colors of distant objects. Color perception seems to involve the presentation of color qualities inhering in bounded particulars located at a distance from the perceiver. But how can one assimilate what remains inherent in a bounded particular remote from one? It is precisely this puzzlement that the theory of effluences is meant to address. Distant objects may be sensed by sensing the material effluences they emit. One may wonder whether the theory of effluences is wholly adequate to this task, at least without supplementation. A Berkelean worry naturally arises about the immediate objects of sensation, the assimilated effluences, screening off the external objects that emit them. Fortunately, it is the puzzlement that arises from Empedocles' conception of sensory presentation, and not his resolution of it, that is our focus here. 
+
+I believe that Empedocles' puzzlement about the nature of sensory presentation involved in vision is a natural one. The puzzlement persists to this day. Thus Broad remarks that:
+\begin{quote}
+    It is a natural, if paradoxical, way of speaking to say that seeing seems to `bring us into \emph{contact} with \emph{remote} objects' and to reveal their shapes and colors. \citep[33]{Broad:1952kx}
+\end{quote}
+Indeed it is one aspect of the problem discussed by contemporary philosophers under the rubric of presence in absence.
+
+The puzzlement consists in an inability to understand how to coherently combine the distal character of the objects of sight with a conception of sensory awareness as a mode of assimilation. It would be wrong to dismiss that conception as primitive piece of psychophysics. Indeed Aristotle retains the conception of perception as a mode of assimilation even as he transforms it in rejecting Empedocles' theory of effluences. Aristotle retains that conception presumably because he felt that there was insight that should be preserved in Empedocles' opinion. And Aristotle is not alone in thinking that there is an insight to be preserved in conceiving of sensory awareness as a mode of assimilation. Thus \citet{Broad:1952kx} speaks of the presentation of the objects of sensory awareness as a mode of prehension.  ``Prehension'' belongs to a primordial family of broadly tactile metaphors for sensory awareness that includes ``grasping'', and ``apprehending''. What unites these metaphors is that they are all a mode of assimilation, and ``ingestion'' is a natural variant \citep[see][7]{Johnston:2006uq,Price:1932fk}. It is natural, then, to think of seeing as taking in the external scene before one.  But then the question naturally arises: How can one take in what remains external?
+
+In \emph{De Anima} Aristotle defines perception as a mode of assimilation of the sensible form without the matter of an external particular (\emph{De Anima} II, 12, 424a; II, 5, 417b). This is an instance of Aristotle's dialectical refinement of the \emph{endoxa}. While denying that sight involves the assimilation of material effluences, Aristotle retains Empedocles' conception of sensory awareness as a mode of assimilation, it is just that we assimilate the sensible form without the matter of the external particular. Indeed, this pattern of dialectical refinement continues in the very next sentence where Aristotle uses Plato's metaphor of  wax receiving the impression of a signet-ring, not to characterize judgment as Plato does in the \emph{Theaetetus}, but to characterize the assimilation of sensible form in perception. Given this pattern of dialectical refinement, we can be confident that Aristotle was engaging with Empedocles' thought in his definition of perception. And while it remains controversial how to understand the assimilation of sensible form, I believe progress can be made by interpreting Aristotle's definition of perception as addressing Empedocles' puzzlement about the nature of sensory presentation involved in sight. Recall Empedoclean puzzlement begins with the natural thought that in seeing one takes in the external scene. The question then arises: How can we take in what remains external? Assimilation is a process of internalization. But if properly internalized, nothing external remains. The proposal is to take Aristotle's definition of perception to be an answer to this question---one can take in what remains external by taking in its sensible form while leaving its matter in place. Understanding how Aristotle's definition of perception could be a resolution of Empedoclean puzzlement imposes a substantive constraint on interpreting the definition. For so interpreted, it is making an important claim about the nature of sensory presentation.
+
+Aristotle's definition of perception is a dialectical refinement of the \emph{endoxa} insofar as it seeks to preserve an Empedoclean insight while resolving a puzzle about how remote objects can be present to sensory consciousness. Empedocles' puzzlement about the nature of sensory presentation persists to this day, though now in the guise of discussions of presence in absence. Perhaps there are insights of Aristotle's that ought to be preserved when confronting Empedoclean puzzlement as it arises in its modern guise. If there are, then a conception of sensory presentation that preserved Aristotle's insight into the proper resolution of Empedoclean puzzlement would itself be a dialectical refinement of the respected opinion of Aristotle. Whether any conception of sensory presentation answers this description remains to be determined.
+
+% section empedocles (end)
+
+\section{Perception at a distance} % (fold)
+\label{sec:perception_at_a_distance}
+
+
+
+% section perception_at_a_distance (end)
+
+\section{Transparency} % (fold)
+\label{sec:transparency}
+
+% section transparency (end)
+
+% Bibligography
+\bibliographystyle{plainnat} 
+\bibliography{Philosophy} 
+
+\end{document}
