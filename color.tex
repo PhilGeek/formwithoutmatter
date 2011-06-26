@@ -50,7 +50,20 @@ Specifically, if rotated clockwise, the innermost arcs form reddish rings, the n
     \label{fig:2}
 \end{figure}
 
-Consider a puzzling aspect of the subjective colors of the Benham disk. Each of the spinning arcs reflect light with the same spectral content and with equal average luminance. In advance of observing the spinning disk, one might reasonably expect the spinning arcs to appear as gray rings of equal brightness. Why, then, do the rings appear reddish, greenish, light blue, and violet? The subjective colors of the Benham disk are not completely understood \citep[for a review of some of the color science see][]{Campenhausen:1995yq}. However, this much is clear: The innermost ring appearing reddish is the result of the visual system visually integrating temporal inhomogeneities presented by the spinning disk. 
+Consider a puzzling aspect of the subjective colors of the Benham disk. Each of the spinning arcs reflect light with the same spectral content and with equal average luminance. In advance of observing the spinning disk, one might reasonably expect the spinning arcs to appear as gray rings of equal brightness. Why, then, do the rings appear reddish, greenish, light blue, and violet? The subjective colors of the Benham disk are not completely understood \citep[for a review of some of the color science see][]{Campenhausen:1995yq}. However, this much is clear: The innermost ring appearing reddish is the result of the visual system visually integrating temporal inhomogeneities presented by the spinning disk. Presentations of black and white stimuli altering at a particular temporal ratio elicits a chromatic response in normal human perceivers. 
+
+This basic principle was used in a prototype of color television broadcasting \citep[]{Griffin:1968fk}. Developed by James F Butterfield, the broadcasting system consists of the Butterfield color encoder that produces a monochromatic signal which when broadcast and displayed on a monitor presents a chromatic appearance. The Butterfield encoder extracts a monochromatic signal from the colored scene by passing the light from the scene through cyan, magenta, and yellow filters. A colored object will appear black when seen through a filter of a complementary color. The filters themselves are arranged in a modified Benham Disk (see Figure~\ref{fig:3}).
+
+\begin{figure}[ht]
+    \begin{center}
+        \begin{tikzpicture}
+          \draw (0,0) circle (4cm);
+          \filldraw (-4cm,0cm) .. controls (-2cm,1cm) and (2cm, -1cm) .. (4cm,0cm) arc (0:-180:4cm) --cycle;;
+      \end{tikzpicture}
+    \end{center}
+    \caption{The filter of the Butterfield Encoder}
+    \label{fig:3}
+\end{figure}
 
 % section the_generation_of_the_hues (end)
 
