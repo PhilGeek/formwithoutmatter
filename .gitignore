@@ -10,3 +10,5 @@
 *.synctex.gz
 *.tod
 *.toc
+*.nav
+*.snm
