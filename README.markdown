@@ -14,21 +14,21 @@ Directory of files for "Form without Matter, Aristotle on Color Perception".
 
 1. .gitignore
 2. README.markdown
-3. formwithoutmatter.tex (Master file)
+3. aristotle.tex (Master file)
 4. empedocles.tex
 5. perception_at_a_distance.tex
 6. transparency.tex
 7. color.tex
 8. generation.tex
 9. the_eye.tex
-10. two_transitions_to_actuality.tex
+10. the_actual_and_the_possible.tex
 11. form_without_matter.tex
 12. talk (directory)
 	1. generation (directory)
-		1. generation.tex
-		2. generation.article.tex
-		3. generation.beamer.tex
-		4. generationhandout.tex
+		1. generation_talk.tex
+		2. generation_talk.article.tex
+		3. generation_talk.beamer.tex
+		4. generation_handout.tex
 	2. transparency (directory)
 		1. transparencytalk.tex
 13. graphics (directory)
