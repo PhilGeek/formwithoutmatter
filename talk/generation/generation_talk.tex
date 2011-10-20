@@ -15,16 +15,20 @@
 % Packages specific to lecture notes
 \mode<article>{
     \usepackage{palatino}
+	\usepackage{setspace}
+	\doublespacing
+}
+\mode<beamer>{
+\setbeamertemplate{navigation symbols}{}
 }
 
 % Packages common to lecture notes and beamer presentation
 \usepackage{pgf}
 \usepackage{tikz}
 \usepackage{hyperref}
-\usepackage{setspace}
-\doublespacing
 
-\setjobnamebeamerversion{generation.beamer}
+
+\setjobnamebeamerversion{generation_talk.beamer}
 
 \title{\mytitle}
 
