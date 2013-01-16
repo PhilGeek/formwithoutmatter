@@ -36,11 +36,20 @@ Directory of files for "Form without Matter, Aristotle on Color Perception".
 	2. archaic.jpg
 	3. black_river.jpg
 	4. black_white_tile.jpg
-	5. bone.jpg
-	6. botticelli1.jpg
-	7. color_encoder.jpg
-	8. descending.jpg
-	9. jatte.jpg
-	10. mixing.jpg
-	11. red_sun.jpg
+	5. blind.jpeg
+	6. bone.jpg
+	7. botticelli1.jpg
+	8. christ.jpg
+	9. color_encoder.jpg
+	10. current.jpg
+	11. descending.jpg
+	12. euclid.jpg
+	13. eye.jpg
+	14. jatte.jpg
+	15. mixing.jpg
+	16. red_sun.jpg
+	17. seuthes111.jpg
+	18. stpauls.jpg
+	19. tomb.jpeg
+	20. wolverine.jpg
 	
