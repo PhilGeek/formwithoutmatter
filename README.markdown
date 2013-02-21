@@ -8,22 +8,24 @@ Created by Mark Eli Kalderon 2011-04-01
 
 # Introduction #
 
-Directory of files for "Form without Matter, Aristotle on Color Perception".
+Directory of files for "Form without Matter, Empedocles and Aristotle on Color Perception".
 
 # Contents #
 
 1. .gitignore
 2. README.markdown
 3. aristotle.tex (Master file)
-4. empedocles.tex
-5. perception_at_a_distance.tex
-6. transparency.tex
-7. color.tex
-8. generation.tex
-9. the_eye.tex
-10. the_actual_and_the_possible.tex
-11. form_without_matter.tex
-12. talk (directory)
+4. preface.tex
+5. empedocles.tex
+6. perception_at_a_distance.tex
+7. transparency.tex
+8. color.tex
+9. light_and_dark.tex
+10. generation.tex
+11. the_eye.tex
+12. the_actual_and_the_possible.tex
+13. form_without_matter.tex
+14. talk (directory)
 	1. generation (directory)
 		1. generation_talk.tex
 		2. generation_talk.article.tex
@@ -31,7 +33,7 @@ Directory of files for "Form without Matter, Aristotle on Color Perception".
 		4. generation_handout.tex
 	2. transparency (directory)
 		1. transparencytalk.tex
-13. graphics (directory)
+15. graphics (directory)
 	1. alexander.jpg
 	2. archaic.jpg
 	3. black_river.jpg
