@@ -27,49 +27,51 @@ It is reasonable to suppose that Aristotle's account of the generation of the hu
 
 \section{Empirical Support} % (fold)
 \label{sec:empirical_support}
-In 1894, an English toy maker, Charles Benham, devised a top adorned with a black and white pattern (see Figure~\ref{fig:2}). Sold through Messrs. Newton and Co., an announcement of the ``Artificial Spectrum Top'' was published in \emph{Nature}:
+In 1894, an English toy maker, Charles Benham, devised a top adorned with a black and white pattern. Sold through Messrs. Newton and Co., an announcement of the ``Artificial Spectrum Top'' was published in \emph{Nature}:
 	\begin{quote}
 		The top consists of a disc, one half of which is black, while the other half has twelve arcs of concentric circles drawn upon it. Each arc subtends an angle of forty-five degrees. In the first quadrant there are three such concentric arcs, in the next three more, and so on; the only difference being that the arcs are parts of circles of which the radii increase in arithmetical progression. Each quadrant thus contains a group of arcs differing in length from those of the other quadrants. The curious point is that when this disc is revolved, the impression of concentric circles of different colors is produced upon the retina. If the direction of rotation is reversed, the order of these tints is also reversed. \citep{Benham:1894kx}
 	\end{quote}
 Specifically, if rotated clockwise, the innermost arcs form reddish rings, the next greenish rings, the next light blue rings, and the outermost arcs form violet rings. If rotated counterclockwise, the pattern is reversed with the innermost arcs now forming violet rings and the outermost reddish rings. The apparent colors of Benham's spinning disk are the ``subjective colors'' first described by \citep{Fechner:1838vn} and, hence, are also sometimes described as ``Fechner-Benham colors''.
 
-\begin{figure}[ht]
-    \begin{center}
-        \begin{tikzpicture}
-			\draw (0,0) circle (4cm);
-			\filldraw[fill=black] (0,0) -- (4cm,0cm) arc (0:-180:4cm) --cycle;
-			\draw[line width=5pt] (canvas polar cs:angle=0,radius=0.25cm) arc (0:45:0.25cm);
-			\draw[line width=5pt] (canvas polar cs:angle=0,radius=0.50cm) arc (0:45:0.50cm);
-			\draw[line width=5pt] (canvas polar cs:angle=0,radius=0.75cm) arc (0:45:0.75cm);
-			\draw[line width=5pt] (canvas polar cs:angle=45,radius=1.25cm) arc (45:90:1.25cm);
-			\draw[line width=5pt] (canvas polar cs:angle=45,radius=1.50cm) arc (45:90:1.50cm);
-			\draw[line width=5pt] (canvas polar cs:angle=45,radius=1.75cm) arc (45:90:1.75cm);
-            \draw[line width=5pt] (canvas polar cs:angle=90,radius=2.25cm) arc (90:135:2.25cm);
-			\draw[line width=5pt] (canvas polar cs:angle=90,radius=2.50cm) arc (90:135:2.50cm);
-			\draw[line width=5pt] (canvas polar cs:angle=90,radius=2.75cm) arc (90:135:2.75cm);
-			\draw[line width=5pt] (canvas polar cs:angle=135,radius=3.25cm) arc (135:180:3.25cm);
-			\draw[line width=5pt] (canvas polar cs:angle=135,radius=3.50cm) arc (135:180:3.50cm);
-			\draw[line width=5pt] (canvas polar cs:angle=135,radius=3.75cm) arc (135:180:3.75cm);
-		\end{tikzpicture}
-    \end{center}
-    \caption{The Benham Disk or ``Artificial Spectrum Top''}
-    \label{fig:2}
-\end{figure}
+%  (see Figure~\ref{fig:2})
+% \begin{figure}[ht]
+%     \begin{center}
+%         \begin{tikzpicture}
+% 			\draw (0,0) circle (4cm);
+% 			\filldraw[fill=black] (0,0) -- (4cm,0cm) arc (0:-180:4cm) --cycle;
+% 			\draw[line width=5pt] (canvas polar cs:angle=0,radius=0.25cm) arc (0:45:0.25cm);
+% 			\draw[line width=5pt] (canvas polar cs:angle=0,radius=0.50cm) arc (0:45:0.50cm);
+% 			\draw[line width=5pt] (canvas polar cs:angle=0,radius=0.75cm) arc (0:45:0.75cm);
+% 			\draw[line width=5pt] (canvas polar cs:angle=45,radius=1.25cm) arc (45:90:1.25cm);
+% 			\draw[line width=5pt] (canvas polar cs:angle=45,radius=1.50cm) arc (45:90:1.50cm);
+% 			\draw[line width=5pt] (canvas polar cs:angle=45,radius=1.75cm) arc (45:90:1.75cm);
+%             \draw[line width=5pt] (canvas polar cs:angle=90,radius=2.25cm) arc (90:135:2.25cm);
+% 			\draw[line width=5pt] (canvas polar cs:angle=90,radius=2.50cm) arc (90:135:2.50cm);
+% 			\draw[line width=5pt] (canvas polar cs:angle=90,radius=2.75cm) arc (90:135:2.75cm);
+% 			\draw[line width=5pt] (canvas polar cs:angle=135,radius=3.25cm) arc (135:180:3.25cm);
+% 			\draw[line width=5pt] (canvas polar cs:angle=135,radius=3.50cm) arc (135:180:3.50cm);
+% 			\draw[line width=5pt] (canvas polar cs:angle=135,radius=3.75cm) arc (135:180:3.75cm);
+% 		\end{tikzpicture}
+%     \end{center}
+%     \caption{The Benham Disk or ``Artificial Spectrum Top''}
+%     \label{fig:2}
+% \end{figure}
 
 Consider a puzzling aspect of the subjective colors of the Benham disk. Each of the spinning arcs reflect light with the same spectral content and with equal average luminance. In advance of observing the spinning disk, one might reasonably expect the spinning arcs to appear as gray rings of equal brightness. Why, then, do the rings appear reddish, greenish, light blue, and violet? The subjective colors of the Benham disk are not completely understood \citep[for a review of some of the color science see][]{Campenhausen:1995yq}. However, this much is clear: The innermost ring appearing reddish is the result of the visual system integrating temporal inhomogeneities presented by the spinning disk. Presentations of black and white stimuli altering at a particular temporal ratio elicits a chromatic response in normal human perceivers. 
 
-This basic principle was used in a prototype of color television \citep[]{Butterfield:1968uq,Butterfield:1970kx}. Developed by James F. Butterfield (who studied philosophy at the University of Chicago as an undergraduate), the broadcasting system consists of the Butterfield color encoder that produces a monochromatic signal that when broadcast and displayed on a black-and-white monitor presents a chromatic appearance. The Butterfield encoder extracts a monochromatic signal from the colored scene by passing the light from the scene through cyan, magenta, and yellow filters. The filters themselves are arranged in, what is in effect, a modified Benham Disk (see Figure~\ref{fig:3}). The bottom half of the filter is opaque with the colored filters fanned across the top half. The filters thus form a disk which is rotated. A colored object will appear black when seen through a filter of a complementary color. This and the opaque half of the rotating disk produces a pulsed black-and-white signal that elicits a chromatic response in normal human perceivers. The system produced good skin tones but unmixed hues, especially red, tended to flicker. The initial public demonstration was, by all accounts, startling:
+This basic principle was used in a prototype of color television \citep[]{Butterfield:1968uq,Butterfield:1970kx}. Developed by James F. Butterfield (who studied philosophy at the University of Chicago as an undergraduate), the broadcasting system consists of the Butterfield color encoder that produces a monochromatic signal that when broadcast and displayed on a black-and-white monitor presents a chromatic appearance. The Butterfield encoder extracts a monochromatic signal from the colored scene by passing the light from the scene through cyan, magenta, and yellow filters. The filters themselves are arranged in, what is in effect, a modified Benham Disk. The bottom half of the filter is opaque with the colored filters fanned across the top half. The filters thus form a disk which is rotated. A colored object will appear black when seen through a filter of a complementary color. This and the opaque half of the rotating disk produces a pulsed black-and-white signal that elicits a chromatic response in normal human perceivers. The system produced good skin tones but unmixed hues, especially red, tended to flicker. The initial public demonstration was, by all accounts, startling:
 \begin{quote}
     When electronic color was first publicly demonstrated in the Los Angeles area over KNXT, no prior announcement had been made at the request of a soft-drink manufacturer sponsoring the test. The beverage firm wanted its color commercials to be a complete surprise to viewers of black-and-white receivers. And, the telecasts were that, to say the very least. Within hours of the electronic-color broadcast, thousands of viewers began asking the same question, ``What happened? Did I really see color on my black-and-white receiver? Or am I having hallucinations?'' \citep[]{Griffin:1968fk}
 \end{quote}
 The power to demand such attention did not go unnoticed. The final public demonstration was an Eva Perón political advertisement.
 
-\begin{figure}[htbp]
-    \centering
-        \includegraphics[scale=.55]{graphics/color_encoder.jpg}
-    \caption{Butterfield color encoder \citep{Shatavsky:1968vn}}
-    \label{fig:3}
-\end{figure}
+% (see Figure~\ref{fig:3})
+% \begin{figure}[htbp]
+%     \centering
+%         \includegraphics[scale=.55]{graphics/color_encoder.jpg}
+%     \caption{Butterfield color encoder \citep{Shatavsky:1968vn}}
+%     \label{fig:3}
+% \end{figure}
 
 That the pulsed black-and-white signal produced by the Butterfield color encoder gives rise to a chromatic appearance is once again the result of the visual system integrating temporal inhomogeneities. However, these temporal inhomogeneities are not the result of spatial movement of the object of perception, but rather due to the qualitative alterations over time of a stationary object. Each involves the presentation of white and black stimuli altering at a particular temporal ratio eliciting a chromatic response in normal human perceivers. They differ in how that temporal ratio is implemented---by the motion of an object whose parts qualitatively differ or by the qualitative alteration over time of a stationary object. 
 
@@ -77,14 +79,15 @@ Stated so abstractly it is easy to see that there is a third possibility. If the
 \begin{quote}
     I also wrote about colour and vision in the 1970s. At Cornell, I had heard Edward Land, the inventor of the polaroid camera, lecture on his discovery that Newton’s theory of colour is wrong. The eye responds not to absolute wavelengths of light, but to the more complicated property of reflectance, which involves the proportions among wavelengths in the available scene. Land was able to cast on the screen at Cornell a slide showing all the colours of the garden, yet he was using wavelengths only from within the yellow waveband. I was intrigued that Goethe had also rejected Newton’s theory of colour, and praised Aristotle for his theory that the other hues are produced by combinations of the brightest and the darkest. This, according to Goethe, is the theory that any painter would accept. We had a reproduction in our hallway of a painting by Bridget Riley consisting of wavy black and white stripes. Some of our guests saw brilliant colours in it. Others merely felt giddy. I wrote to ask Bridget Riley what she thought of Goethe and Aristotle, but this time I did not get an answer. (\citealt[13]{Sorabji:2005fk}; see also \citealt[295]{Sorabji:2022qf})
 \end{quote}
-The chromatic appearances that Riley's painting give rise to (see Figure~\ref{fig:4}) are the result of the visual system integrating temporal inhomogeneities that result from the eye involuntarily moving across a stationary black and white object.
+The chromatic appearances that Riley's painting give rise to  are the result of the visual system integrating temporal inhomogeneities that result from the eye involuntarily moving across a stationary black and white object.
 
-\begin{figure}[htbp]
-    \centering
-        \includegraphics{graphics/current.jpg}
-    \caption{Bridget Riley, \emph{Current}}
-    \label{fig:4}
-\end{figure}
+% (see Figure~\ref{fig:4})
+% \begin{figure}[htbp]
+%     \centering
+%         \includegraphics{graphics/current.jpg}
+%     \caption{Bridget Riley, \emph{Current}}
+%     \label{fig:4}
+% \end{figure}
 
 These examples involve artifacts and technology unavailable at Aristotle's time. And while they may make plausible for \emph{us} that ratios of white and black can, sometimes at least, give rise to chromatic appearances, they could not have done so for Aristotle. What empirical observation available to Aristotle could have made vivid for him the possibility that chromatic appearances are the result of the ratio of light and dark in the perceived scene? An example discussed in the last chapter could give rise to the relevant experience. The sun is white, but it appears red when seen through fog or a cloud of smoke (\emph{De Sensu} \textsc{iii} 440\( ^{a} \)10--11).  The white sun, when superimposed by black particles suspended in the intervening transparent medium, looks red. The reduction of the sun's brilliance by the intervening particulate matter of the smoke results in the sun's crimson appearance. In his \emph{Theory of Colors}, Goethe repeats and elaborates Aristotle's example:
 \begin{quote}
@@ -218,33 +221,36 @@ In \emph{De Gloria Atheniensium}, not only does Plutarch attribute the invention
 \begin{quote}
 	Four colours only---white from Melos, Attic yellow, red from Sinope on the Black Sea, and the black called ``atramentum''---were used by Apelles, Aetion, Melanthios and Nikomachos in their immortal works. (Pliny, \emph{Historia Naturalis} 35 50; \citealt[97]{Jex-Blake:1896uq})
 \end{quote}
-The Alexander mosaic depicting the Battle of Isis is a Roman work from the first century \textsc{bc} that is a copy of a Greek four-color painting. Pliny (\emph{Historia Naturalis} 35 110; \citealt[143]{Jex-Blake:1896uq}) attributes the original four-color painting to Philoxenos of Eretria ``who painted for king Kassander the battle between Alexander and Dareios, a picture second to none.'' The Alexander mosaic gives us a sense of the naturalistic skin tones that could be achieved with four-color painting (see figure~\ref{fig:alexander}). However, being a mosaic, it is in this respect misleading---the fundamental method of color combination in mosaics is the juxtaposition of differently colored tiles as opposed to the overlaying of differently colored washes (though of course these methods can be combined). Sellers suggests that for a better sense of what can be accomplished with only four colors we need only consider Titian's ``Christ crowned with thorns'' in the Louvre (see figure~\ref{fig:christ}; \citealt[97 note]{Jex-Blake:1896uq}; for a revealing if idiosyncratic account of the Greek four-color palette and Venetian painting see \citealt{Pavey:1956fk}). So one way of combining colors is by overlaying differently colored washes, that is, by overlap.
+The Alexander mosaic depicting the Battle of Isis is a Roman work from the first century \textsc{bc} that is a copy of a Greek four-color painting. Pliny (\emph{Historia Naturalis} 35 110; \citealt[143]{Jex-Blake:1896uq}) attributes the original four-color painting to Philoxenos of Eretria ``who painted for king Kassander the battle between Alexander and Dareios, a picture second to none.'' The Alexander mosaic gives us a sense of the naturalistic skin tones that could be achieved with four-color painting. However, being a mosaic, it is in this respect misleading---the fundamental method of color combination in mosaics is the juxtaposition of differently colored tiles as opposed to the overlaying of differently colored washes (though of course these methods can be combined). Sellers suggests that for a better sense of what can be accomplished with only four colors we need only consider Titian's ``Christ crowned with thorns'' in the Louvre (see \citealt[97 note]{Jex-Blake:1896uq}; for a revealing if idiosyncratic account of the Greek four-color palette and Venetian painting see \citealt{Pavey:1956fk}). So one way of combining colors is by overlaying differently colored washes, that is, by overlap.
 
-\begin{figure}[htbp]
-    \centering
-        \includegraphics[scale=0.70]{graphics/alexander.jpg}
-    \caption{Detail of the Alexander Mosaic, 1st century \textsc{bc}}
-    \label{fig:alexander}
-\end{figure}
-\begin{figure}[htbp]
-    \centering
-        \includegraphics[scale=0.5]{graphics/christ.jpg}
-    \caption{Titian, ``Christ Crowned with Thorns'', 1570}
-    \label{fig:christ}
-\end{figure}
+% (see figure~\ref{fig:alexander})
+% figure~\ref{fig:christ}; 
+% \begin{figure}[htbp]
+%     \centering
+%         \includegraphics[scale=0.70]{graphics/alexander.jpg}
+%     \caption{Detail of the Alexander Mosaic, 1st century \textsc{bc}}
+%     \label{fig:alexander}
+% \end{figure}
+% \begin{figure}[htbp]
+%     \centering
+%         \includegraphics[scale=0.5]{graphics/christ.jpg}
+%     \caption{Titian, ``Christ Crowned with Thorns'', 1570}
+%     \label{fig:christ}
+% \end{figure}
 
-We have seen \citet[29]{Bruno:1977fk} claim that in the sophisticated chiaroscuro inaugurated by Zeuxis ``shading assumed a more dominant role and the nuances of coloring and brushwork became more and more complex, perhaps more `painterly'.'' A sense of this more ``painterly'' style can be seen, according to Bruno, in the figure of Rhadmanthys painted on the facade of the tomb of Lefkadia (see figure~\ref{fig:tomb}):
+We have seen \citet[29]{Bruno:1977fk} claim that in the sophisticated chiaroscuro inaugurated by Zeuxis ``shading assumed a more dominant role and the nuances of coloring and brushwork became more and more complex, perhaps more `painterly'.'' A sense of this more ``painterly'' style can be seen, according to Bruno, in the figure of Rhadmanthys painted on the facade of the tomb of Lefkadia:
 \begin{quote}
     A dark is not just an area of darker pink or brown flesh tones; it has blues and greens running through it and a complex system of overlapping tones in which every individual stroke is a slightly different color. Color accidents, produced by quick, overlapping brushstrokes, abound throughout the work and are accidents upon which the artist relied. \citep[25]{Bruno:1977fk}
 \end{quote}
 In the late development of fifth century \textsc{bc} chiaroscuro, as light and dark come to further dominate the compositional scheme, the relationship between form and color became complicated. Whereas earlier forms of chiaroscuro would use one color for shaded parts of a figure, later forms would use a variety of colors, their choice controlled more by relative brightness than hue. The effect of this more complicated scheme may without too much risk of anachronism be described as proto-impressionistic. However, \emph{pace} \citet{Keuls:1975uq}, I do not think that the literary and archeological evidence supports the attribution of nineteenth century ``divisionist'' technique to fifth century \textsc{bc} painters \citep[see][]{Pemberton:1976kx}. However, there need be no ancient predecessor of Suerat in fifth century \textsc{bc} painting for there to be a method of color combination that involved not the overlap but the juxtaposition of color.
 
-\begin{figure}[htbp]
-    \centering
-        \includegraphics[scale=1]{graphics/tomb.jpeg}
-    \caption{Victor Bruno's watercolor sketch of Rhadamanthys at the tomb of Lefkadia}
-    \label{fig:tomb}
-\end{figure}
+% (see figure~\ref{fig:tomb})
+% \begin{figure}[htbp]
+%     \centering
+%         \includegraphics[scale=1]{graphics/tomb.jpeg}
+%     \caption{Victor Bruno's watercolor sketch of Rhadamanthys at the tomb of Lefkadia}
+%     \label{fig:tomb}
+% \end{figure}
 
 We have seen that combination in Empedocles' painting analogy cannot be understood in terms of mixture. If the sense in which painters combine colors in various proportions to represent the forms of all things is analogous to the sense in which the opposing forces of Love and Strife combine the elements in various proportions, then the metaphysical status of the elements rules out understanding the combination as mixture, since the elements would be indistinguishable in the compound. Fifth century \textsc{bc} painting, however, provides us with two further models. Perhaps the combination could be understood, not in terms of mixture, but in terms of overlap or juxtaposition. 
 
