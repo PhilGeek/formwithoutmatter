@@ -21,7 +21,7 @@
 \usepackage{color}
 \usepackage{epigraph}
 \usepackage{enumerate}
-\usepackage{tikz}
+% \usepackage{tikz}
 \definecolor{gray}{rgb}{0.459,0.438,0.471}
 
 % XeTeX
@@ -31,7 +31,11 @@
 \setmainfont{Hoefler Text}
 
 % Bibliography
-\usepackage[round]{natbib} 
+\usepackage[round]{natbib}
+
+% Index
+\usepackage{makeidx}
+\makeindex
 
 % Title Information
 % \title{Form without Matter\\
@@ -87,6 +91,9 @@ Empedocles and Aristotle on Color Perception}
 
 % Bibligography
 \bibliographystyle{plainnat} 
-\bibliography{Philosophy} 
+\bibliography{Philosophy}
+
+% Index
+\printindex
 
 \end{document}
