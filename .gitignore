@@ -13,3 +13,6 @@
 *.nav
 *.snm
 *.fls
+*.idx
+*.ilg
+*.ind
